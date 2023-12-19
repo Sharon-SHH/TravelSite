@@ -1,0 +1,66 @@
+.main {
+    z-index: -1;
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+}
+.iceland {
+    background-image: url(../assets/images/iceland.jpg);
+}
+.greece {
+    background-image: url(../assets/images/greece.jpg);
+}
+.cards {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+.cards__title {
+    color: #FFFFFF;
+    margin: 3rem 10%;
+    font-size: xx-large;
+}
+.cards__name {
+    text-align: center;
+    margin: 0.5rem;
+    padding-top: 1rem;
+    border-bottom: 2px solid #000000;
+}
+.cards__list {
+    width: 100%;
+    padding-left: 0px;
+}
+.cards__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: row wrap;
+    padding: 1rem 3rem;
+    max-width: 90%;
+    margin: 0 15%;
+}
+.cards__card {
+    background-color: #FEFAF5;
+
+}
+.cards__content {
+    height: 19rem;
+    width: 17rem;
+    display: flex;
+    justify-content: center;
+}
+.cards__li {
+    list-style: none;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 199, 204);
+    margin: .5rem;
+}
+li:hover {
+    background-color: #FEFAF5;
+}
